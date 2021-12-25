@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(61, 158, 61);
+}
+
+nav h3 {
+    padding-left: 1em;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    padding: 1.2em;
+    border: 1px solid rgb(61, 158, 61);
+    transition: 0.75s;
+}
+
+nav a:hover {
+    border: 1px solid white;
+    border-radius: 50px;
+}

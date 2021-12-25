@@ -1,0 +1,145 @@
+/* .main {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lora', serif;
+} */
+
+.about img {
+    width: 18em;
+    height: 18em;
+    transition: 0.5s;
+}
+
+.about p {
+    margin: auto;
+    width: 80%;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.about-part {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.about-part .box {
+    position: relative;
+    margin: auto;
+    width: 45em;
+    height: 50em;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    margin-top: 5em;
+}
+
+.about-part .box:hover img {
+    width: 20em;
+    height: 20em;
+}
+
+.about-part .box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+}
+
+.about-part .box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #4dff03, #00d0ff);
+    filter: blur(30px);
+}
+
+.about-part .box span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.about-part .box span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+.about-part .box .about {
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.box a:hover {
+    color: black;
+}
+
+.box i {
+    font-size: 30px;
+    transition: 1s;
+}
+
+.box button {
+    width: 20%;
+    padding: 13px;
+    margin-top: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: white;
+    border: 0px;
+    transition: 1s;
+}
+
+.box button:hover {
+    background-color: black;
+    color: white;
+}

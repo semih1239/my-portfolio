@@ -1,0 +1,68 @@
+#education {
+    display: flex;
+    justify-content: center;
+}
+
+#education .box {
+    position: relative;
+    margin: auto;
+    width: 45em;
+    height: 50em;
+    color: #fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    margin-top: 5em;
+}
+
+#education .box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #00d0ff, #4dff03);
+}
+
+#education .box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #00d0ff, #4dff03);
+    filter: blur(30px);
+}
+
+#education .box span {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+#education .box span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+#education .box .about {
+    display: flex;
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+    text-align: left;
+}

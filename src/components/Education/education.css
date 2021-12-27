@@ -1,8 +1,54 @@
 #education {
-    display: flex;
-    justify-content: center;
+    background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #0759a1 25%, #0759a1 50%);
 }
 
+#education .title {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#education .title hr {
+    width: 35%;
+    height: 0;
+}
+
+#education .hyf {
+    padding-left: 3em;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#education .university {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#education .fu {
+    width: 50%;
+    padding: 0 3em 5em 0;
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
 #education .box {
     position: relative;
     margin: auto;
@@ -15,8 +61,8 @@
     align-items: center;
     margin: 20px 30px;
     margin-top: 5em;
-}
-
+} */
+/* 
 #education .box::before {
     content: "";
     position: absolute;
@@ -57,12 +103,12 @@
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     pointer-events: none;
-}
+} */
 
-#education .box .about {
+/* #education .about {
     display: flex;
     position: relative;
     z-index: 10;
     padding: 20px 40px;
     text-align: left;
-}
+} */

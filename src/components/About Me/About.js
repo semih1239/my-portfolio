@@ -1,7 +1,5 @@
 import React from 'react'
 import "./about.css"
-import profile from '../../images/profile.png'
-import vd from '../../images/1.mp4'
 
 export const AboutMe = () => {
     const sendMail = () => {
@@ -11,13 +9,13 @@ export const AboutMe = () => {
 
     return <div className='about-part'>
         <video autoPlay muted id="video">
-            <source class="embed-responsive" src={vd} type="video/mp4" />
+            <source class="embed-responsive" src={require('../../images/1.mp4')} type="video/mp4" />
         </video>
         <div className="box">
             <span />
             <div className="about">
                 <h1>About Me</h1>
-                <img src={profile} alt='profile-photo' />
+                <img src={require('../../images/profile.png')} alt='profile-photo' />
                 <p>I am passionate about software and web applications. I am a solution-oriented and researcher for solving problems. I am always open to innovation and learning.
                     I am a person with high energy and I am a complete team player when it comes to communication and coordination with the team.
                     I am always open to learning new libraries and programs for my skills.

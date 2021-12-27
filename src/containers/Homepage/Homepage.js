@@ -2,6 +2,7 @@ import React from 'react'
 import { Navigation } from '../../components/Navigation/Navigation'
 import { AboutMe } from '../../components/About Me/About'
 import { Education } from '../../components/Education/Education'
+import { Skills } from '../../components/Skills/skills'
 import './homepage.css'
 
 export const Homepage = () => {
@@ -12,5 +13,6 @@ export const Homepage = () => {
         </div>
         <AboutMe />
         <Education />
+        <Skills />
     </div>
 }

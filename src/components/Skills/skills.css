@@ -1,0 +1,35 @@
+#skills {
+    /* background: linear-gradient(to top right, transparent 0%, transparent 50%, #0759a1 25%, #0759a1 50%); */
+    background: #0759a1;
+}
+
+#skills .title {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#skills .title hr {
+    width: 35%;
+    height: 0;
+}
+
+#skills .my-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills .skill {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2em;
+}
+
+#skills img {
+    width: 3em;
+    height: fit-content;
+    padding-right: 0.5em;
+}

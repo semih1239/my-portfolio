@@ -3,6 +3,7 @@ import { Navigation } from '../../components/Navigation/Navigation'
 import { AboutMe } from '../../components/About Me/About'
 import { Education } from '../../components/Education/Education'
 import { Skills } from '../../components/Skills/skills'
+import { Projects } from '../../components/Projects/Projects'
 import './homepage.css'
 
 export const Homepage = () => {
@@ -14,5 +15,6 @@ export const Homepage = () => {
         <AboutMe />
         <Education />
         <Skills />
+        <Projects />
     </div>
 }

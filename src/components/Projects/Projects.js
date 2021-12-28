@@ -100,11 +100,9 @@ export const Projects = () => {
             <div class="card">
                 <img src={require('../../images/git-user-searcher.png')} className="website" />
                 <div class="content">
-                    <h2>01</h2>
-                    <h3>Card One</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores iure minus expedita
-                        incidunt repellat tempora aperiam ipsa reiciendis reprehenderit, mollitia omnis laudantium quam,
-                        officiis fuga magnam, amet placeat minima!</p>
+                    <h2>GitHub</h2>
+                    <h3>GitHub User Searcher</h3>
+                    <p>We can search github users and some basic informations from this project</p>
                     <a href="https://github.com/semih1239/Github-User-Searcher" target='_blank'>Repository</a>
                     <p>Builted With</p>
                     <p className="project-skills">
@@ -130,11 +128,10 @@ export const Projects = () => {
             <div class="card">
                 <img src={require('../../images/weather-app.png')} className="website" />
                 <div class="content">
-                    <h2>01</h2>
-                    <h3>Card One</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores iure minus expedita
-                        incidunt repellat tempora aperiam ipsa reiciendis reprehenderit, mollitia omnis laudantium quam,
-                        officiis fuga magnam, amet placeat minima!</p>
+                    <h2>Weather</h2>
+                    <h3>Weather App</h3>
+                    <p>With this website we can learn the weather forecast. We can save the city we are looking for in a local file,
+                        automatically detect your location or can delete</p>
                     <a href="https://github.com/semih1239/Weather-app" target='_blank'>Repository</a>
                     <p>Builted With</p>
                     <p className="project-skills">
@@ -156,11 +153,9 @@ export const Projects = () => {
             <div class="card">
                 <img src={require('../../images/fastest-presser.png')} className="website" />
                 <div class="content">
-                    <h2>01</h2>
-                    <h3>Card One</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci maiores iure minus expedita
-                        incidunt repellat tempora aperiam ipsa reiciendis reprehenderit, mollitia omnis laudantium quam,
-                        officiis fuga magnam, amet placeat minima!</p>
+                    <h2>Game</h2>
+                    <h3>Faster Presser Game</h3>
+                    <p>A game played by 2 people, the one who hits the key quickly wins</p>
                     <a href="https://github.com/semih1239/Fastest-Presser-Game" target='_blank'>Repository</a>
                     <p>Builted With</p>
                     <p className="project-skills">

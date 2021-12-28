@@ -1,0 +1,28 @@
+#certificates {
+    background: #0759a1;
+}
+
+#certificates .title {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#certificates .title hr {
+    width: 35%;
+    height: 0;
+}
+
+#certificates .certificate {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 0.5em;
+}
+
+#certificates .certificate img {
+    width: 3em;
+    height: fit-content;
+    padding-right: 0.3em;
+}

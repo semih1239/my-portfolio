@@ -1,8 +1,5 @@
-#projects {
-    background: #0759a1;
-}
-
 #projects .title {
+    background: #0759a1;
     display: flex;
     align-items: center;
     color: white;
@@ -15,6 +12,7 @@
 }
 
 #projects .container {
+    background: linear-gradient(to top right, transparent 0%, transparent 50%, #0759a1 25%, #0759a1 50%);
     position: relative;
     display: flex;
     justify-content: center;

@@ -10,11 +10,11 @@ export const Projects = () => {
             <hr />
         </div>
         <div className="container">
-            <div class="card">
+            <div className="card">
                 <div className="image">
                     <img src={require('../../images/webshop.png')} className="website" />
                 </div>
-                <div class="content">
+                <div className="content">
                     <h2>Interior</h2>
                     <h3>Interior Design Webshop</h3>
                     <p>Part of Hack Your Future final project, an Interior Design Webshop.
@@ -59,9 +59,9 @@ export const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <img src={require('../../images/meal-sharing.png')} className="website" />
-                <div class="content">
+                <div className="content">
                     <h2>Share</h2>
                     <h3>Meal Sharing App</h3>
                     <p>Website for sharing meals together. You can add meal and you can
@@ -97,9 +97,9 @@ export const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <img src={require('../../images/git-user-searcher.png')} className="website" />
-                <div class="content">
+                <div className="content">
                     <h2>GitHub</h2>
                     <h3>GitHub User Searcher</h3>
                     <p>We can search github users and some basic informations from this project</p>
@@ -125,9 +125,9 @@ export const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <img src={require('../../images/weather-app.png')} className="website" />
-                <div class="content">
+                <div className="content">
                     <h2>Weather</h2>
                     <h3>Weather App</h3>
                     <p>With this website we can learn the weather forecast. We can save the city we are looking for in a local file,
@@ -150,9 +150,9 @@ export const Projects = () => {
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <img src={require('../../images/fastest-presser.png')} className="website" />
-                <div class="content">
+                <div className="content">
                     <h2>Game</h2>
                     <h3>Faster Presser Game</h3>
                     <p>A game played by 2 people, the one who hits the key quickly wins</p>

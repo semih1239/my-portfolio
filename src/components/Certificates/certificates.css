@@ -2,6 +2,8 @@
     background: #0759a1;
 }
 
+/* 2493be */
+/* 0759a1 */
 #certificates .title {
     display: flex;
     align-items: center;
@@ -17,12 +19,40 @@
 #certificates .certificate {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: white;
-    padding-right: 0.5em;
+    font-size: 1.1em;
 }
 
 #certificates .certificate img {
     width: 3em;
     height: fit-content;
     padding-right: 0.3em;
+}
+
+#certificates .cert-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em;
+}
+
+#certificates .cert-part .cert-list {
+    width: 30%;
+}
+
+#certificates .cert-list li {
+    padding: 3em 0;
+}
+
+#certificates .cert-name {
+    display: flex;
+}
+
+#certificates .cert-part .cert-img {
+    width: 50%;
+}
+
+#certificates .certificate i {
+    color: white;
+    font-size: 2em;
 }

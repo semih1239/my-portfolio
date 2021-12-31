@@ -6,10 +6,9 @@ export const AboutMe = () => {
         window.open('mailto:semihayyildiz23@hotmail.com')
     }
 
-
     return <div className='about-part'>
-        <video autoPlay muted id="video">
-            <source class="embed-responsive" src={require('../../images/1.mp4')} type="video/mp4" />
+        <video autoPlay muted loop id="video">
+            <source class="embed-responsive" src={require('../../images/2.mp4')} type="video/mp4" />
         </video>
         <div className="box">
             <span />

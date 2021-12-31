@@ -9,7 +9,7 @@ export const Education = () => {
             <div className="hyf">
                 <div>
                     <h1>Hack Your Future Denmark</h1>
-                    <h2>Full Stack Web Development (2021)</h2>
+                    <h2>Full Stack Web Development</h2>
                     <div>9 month course about
                         Full Stack Web
                         Development program.

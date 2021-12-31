@@ -1,5 +1,6 @@
 #certificates {
-    background: #0759a1;
+    /* background: #0759a1; */
+    background: linear-gradient(to bottom, transparent 10%, transparent 10%, #0759a1 25%, #0759a1 50%);
 }
 
 /* 2493be */
@@ -20,7 +21,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
     font-size: 1.1em;
 }
 
@@ -37,7 +37,7 @@
 }
 
 #certificates .cert-part .cert-list {
-    width: 30%;
+    width: 40%;
 }
 
 #certificates .cert-list li {
@@ -46,6 +46,11 @@
 
 #certificates .cert-name {
     display: flex;
+}
+
+#certificates .cert-name a {
+    color: white;
+    text-decoration: none;
 }
 
 #certificates .cert-part .cert-img {

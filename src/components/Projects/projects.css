@@ -12,7 +12,7 @@
 }
 
 #projects .container {
-    background: linear-gradient(to top right, transparent 0%, transparent 50%, #0759a1 25%, #0759a1 50%);
+    background: linear-gradient(to top, transparent 0%, #0759a1 100%);
     position: relative;
     display: flex;
     justify-content: center;

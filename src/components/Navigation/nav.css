@@ -2,7 +2,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(61, 158, 61);
+    /* background: rgb(61, 158, 61); */
+    background: #0759a1;
 }
 
 nav h3 {
@@ -18,7 +19,7 @@ nav ul {
 nav a {
     color: white;
     padding: 1.2em;
-    border: 1px solid rgb(61, 158, 61);
+    border: 1px solid #0759a1;
     transition: 0.75s;
 }
 

@@ -18,8 +18,7 @@ export const Projects = () => {
                     <h2>Interior</h2>
                     <h3>Interior Design Webshop</h3>
                     <p>Part of Hack Your Future final project, an Interior Design Webshop.
-                        Developed with the team over 2 months.
-                    </p>
+                        Developed with the team over 2 months.</p>
                     <a href="https://staging-webshop-class18-fp.herokuapp.com" target='_blank'>Website</a>
                     <a href="https://github.com/HackYourFuture-CPH/fp-class18" target='_blank'>Repository</a>
                     <p>Builted With</p>

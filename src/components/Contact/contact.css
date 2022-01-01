@@ -1,0 +1,83 @@
+#contact {
+    /* background: #0759a1; */
+    background: linear-gradient(to top, transparent 5%, #0759a1 60%);
+    color: white;
+    /* height: 50vh; */
+}
+
+#contact .title {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#contact .title hr {
+    width: 35%;
+    height: 0;
+}
+
+#contact .icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#contact .icon p {
+    padding-left: 0.7em;
+}
+
+#contact .touch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#contact form input {
+    padding-left: 1em;
+    border-radius: 10px;
+    border: 0;
+}
+
+#contact .name-mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact form #name {
+    width: 50%;
+    height: 3em;
+}
+
+#contact form #email {
+    width: 50%;
+    height: 3em;
+    margin-left: 1em;
+}
+
+#contact form #message {
+    padding: 1em;
+    border-radius: 10px;
+    border: 0;
+}
+
+#contact form button {
+    padding: 1em;
+    width: 10em;
+    background: #0759a1;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.75s ease-in-out;
+    opacity: 0.6;
+}
+
+#contact form button:hover {
+    opacity: 1;
+}

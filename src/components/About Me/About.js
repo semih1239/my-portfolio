@@ -7,7 +7,7 @@ export const AboutMe = () => {
     }
 
     return <div className='about-part'>
-        <video autoPlay muted loop id="video">
+        <video autoPlay muted id="video">
             <source class="embed-responsive" src={require('../../images/2.mp4')} type="video/mp4" />
         </video>
         <div className="box">

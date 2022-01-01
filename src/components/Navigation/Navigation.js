@@ -4,24 +4,32 @@ import "./nav.css"
 export const Navigation = () => {
     return <nav>
         <h3>SEMIH AYYILDIZ</h3>
-        <ul>
+        <input type="checkbox" id="nav-check" />
+        <div className="nav-btn">
+            <label htmlFor="nav-check">
+                <span />
+                <span />
+                <span />
+            </label>
+        </div>
+        <ul className='nav-links'>
             <li>
-                <a>About Me</a>
+                <a href='#about'>About Me</a>
             </li>
             <li>
-                <a>Educations</a>
+                <a href='#education'>Educations</a>
             </li>
             <li>
-                <a>My Skills</a>
+                <a href='#skills'>My Skills</a>
             </li>
             <li>
-                <a>Projects</a>
+                <a href='#projects'>Projects</a>
             </li>
             <li>
-                <a>Certificates</a>
+                <a href='#certificates'>Certificates</a>
             </li>
             <li>
-                <a>Job Experience</a>
+                <a href='#contact'>Contact</a>
             </li>
         </ul>
     </nav>

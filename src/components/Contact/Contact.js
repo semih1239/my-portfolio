@@ -24,9 +24,11 @@ export const Contact = () => {
                     <p>+45 71 54 51 10</p>
                 </div>
             </div>
-            <form action="https://formsubmit.co/semihayyildiz23@outlook.com" method="POST">
+            <form action="https://formsubmit.co/semihayyildiz23@outlook.com" target='_blank' method="POST">
                 <div className='name-mail'>
-                    <input type='hidden' name='_next' value='' />
+                    {/* <input type='hidden' name='_next' value='' /> */}
+                    {/* <input type="hidden" name="_captcha" value="false" /> */}
+                    <input type="hidden" name="_template" value="table" />
                     <input type='hidden' name='_subject' value='From Portfolio!!!' />
                     <input id='name' type='text' name='name' placeholder='Name' required />
                     <input id='email' type='email' name='email' placeholder='Email Address' required />

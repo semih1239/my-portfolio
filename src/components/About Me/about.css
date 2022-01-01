@@ -126,6 +126,7 @@
 }
 
 .box button {
+    min-width: 6em;
     width: 20%;
     padding: 13px;
     margin-top: 10px;
@@ -139,4 +140,10 @@
 .box button:hover {
     background-color: black;
     color: white;
+}
+
+@media (max-width: 550px) {
+    .about-part .box {
+        height: 57em;
+    }
 }

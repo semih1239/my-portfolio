@@ -1,0 +1,15 @@
+#footer {
+    /* background: #0759a1; */
+    background: linear-gradient(to bottom, transparent 5%, #0759a1 60%);
+    padding: 0.5em;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    /* color: white; */
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

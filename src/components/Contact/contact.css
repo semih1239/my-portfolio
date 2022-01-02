@@ -81,3 +81,11 @@
 #contact form button:hover {
     opacity: 1;
 }
+
+
+/* @media (max-width: 870px) {
+    #contact .touch {
+        display: block;
+    }
+
+} */

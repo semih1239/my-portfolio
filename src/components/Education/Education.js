@@ -5,7 +5,11 @@ export const Education = () => {
 
     return <div id="education">
         <div className="about">
-            <h1 className="title"><hr />Education <hr /></h1>
+            <h1 className="title">
+                <hr />
+                Education
+                <hr />
+            </h1>
             <div className="hyf">
                 <div>
                     <h1>Hack Your Future Denmark</h1>
@@ -29,11 +33,15 @@ export const Education = () => {
                         companies
                     </div>
                 </div>
-                <h1>2021</h1>
+                <h1 className="year">2021</h1>
             </div>
             <div className="university">
                 <div className="fu">
-                    <h1 className="year">2013-2019</h1>
+                    <h1 className="year">
+                        <div>2013</div>
+                        <div>|</div>
+                        <div>2019</div>
+                    </h1>
                     <div>
                         <h1>
                             Firat University

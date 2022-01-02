@@ -30,17 +30,37 @@
 
 #education .fu {
     width: 50%;
-    padding: 0 3em 5em 0;
+    padding: 3em 0.5em 0 0;
     color: white;
     text-align: right;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
+#education .year {
+    text-align: center;
+}
 
+@media (max-width: 870px) {
+    #education .hyf {
+        width: 90%;
+        justify-content: center;
+        padding: 0 20px 0 30px;
+    }
 
+    #education .fu {
+        flex-direction: row-reverse;
+        width: 90%;
+        justify-content: center;
+        text-align: left;
+        padding: 0 20px 0 30px;
+    }
 
+    #education .university {
+        justify-content: flex-start;
+    }
+}
 
 
 

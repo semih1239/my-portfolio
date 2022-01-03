@@ -58,6 +58,7 @@
 #certificates .certificate i {
     color: white;
     font-size: 2em;
+    padding-right: 2em;
 }
 
 @media (max-width: 1450px) {
@@ -73,6 +74,10 @@
 
     #certificates .cert-part {
         padding: 0 1em;
+    }
+
+    #certificates .certificate i {
+        padding-right: 0;
     }
 }
 

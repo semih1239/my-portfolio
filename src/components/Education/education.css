@@ -19,8 +19,12 @@
     width: 50%;
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+}
+
+#education .school {
+    width: 85%;
 }
 
 #education .university {
@@ -34,8 +38,12 @@
     color: white;
     text-align: right;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+}
+
+#education .fu .school {
+    padding-right: 3em;
 }
 
 #education .year {
@@ -59,6 +67,10 @@
 
     #education .university {
         justify-content: flex-start;
+    }
+
+    #education .fu .school {
+        padding-right: 0;
     }
 }
 

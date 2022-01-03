@@ -11,7 +11,7 @@ export const Education = () => {
                 <hr />
             </h1>
             <div className="hyf">
-                <div>
+                <div className="school">
                     <h1>Hack Your Future Denmark</h1>
                     <h2>Full Stack Web Development</h2>
                     <div>9 month course about
@@ -42,7 +42,7 @@ export const Education = () => {
                         <div>|</div>
                         <div>2019</div>
                     </h1>
-                    <div>
+                    <div className="school">
                         <h1>
                             Firat University
                         </h1>

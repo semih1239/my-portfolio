@@ -24,7 +24,7 @@ export const AboutMe = () => {
                     <a href="https://github.com/semih1239" _blank><i className="fab fa-github" /></a>
                     <a onClick={sendMail}><i className="far fa-envelope" /></a>
                 </div>
-                <button>See CV</button>
+                <a className='cv' href='https://drive.google.com/file/d/11quKDbmhLKWQ17GFvtEzbiIorP48TKzS/view?usp=sharing' _blank>See CV</a>
             </div>
         </div>
     </div>

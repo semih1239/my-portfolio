@@ -21,10 +21,10 @@ export const AboutMe = () => {
                 </p>
                 <div className="contacts">
                     <a href="https://www.linkedin.com/in/semihayyildiz23/" target='_blank'><i className="fab fa-linkedin-in" /></a>
-                    <a href="https://github.com/semih1239" _blank><i className="fab fa-github" /></a>
+                    <a href="https://github.com/semih1239" target='_blank'><i className="fab fa-github" /></a>
                     <a onClick={sendMail}><i className="far fa-envelope" /></a>
                 </div>
-                <a className='cv' href='https://drive.google.com/file/d/11quKDbmhLKWQ17GFvtEzbiIorP48TKzS/view?usp=sharing' _blank>See CV</a>
+                <a className='cv' href='https://drive.google.com/file/d/11quKDbmhLKWQ17GFvtEzbiIorP48TKzS/view?usp=sharing' target='_blank'>See CV</a>
             </div>
         </div>
     </div>

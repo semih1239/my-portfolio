@@ -94,5 +94,11 @@
     #contact form button {
         margin-top: 1em;
     }
+}
 
+@media (max-width: 500px) {
+    #contact .icon p {
+        font-size: 0.6em;
+        word-break: break-all;
+    }
 }

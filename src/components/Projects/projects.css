@@ -115,6 +115,6 @@
 
 #projects .content img {
     width: 2em;
-    height: fit-content;
+    height: auto;
     padding-right: 0.3em;
 }

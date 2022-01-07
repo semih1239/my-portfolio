@@ -24,7 +24,7 @@
 
 #certificates .certificate img {
     width: 3em;
-    height: fit-content;
+    height: 3em;
     padding-right: 0.3em;
 }
 
@@ -97,10 +97,6 @@
 }
 
 @media (max-width: 800px) {
-    #certificates .certificate img {
-        width: 2em;
-    }
-
     #certificates .cert-part .cert-list {
         width: 60%;
     }

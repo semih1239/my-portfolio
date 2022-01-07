@@ -118,3 +118,17 @@
     height: auto;
     padding-right: 0.3em;
 }
+
+@media (max-width: 525px) {
+    #projects .container .card .content h2 {
+        font-size: 5em;
+    }
+
+    #projects .container .card .content h3 {
+        font-size: 1.1em;
+    }
+
+    #projects .container .card .content p {
+        font-size: 0.8em;
+    }
+}

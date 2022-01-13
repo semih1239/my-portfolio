@@ -15,9 +15,11 @@ export const AboutMe = () => {
             <div className="about">
                 <h1>About Me</h1>
                 <img src={require('../../images/profile.png')} alt='profile' />
-                <p>I am passionate about software and web applications. I am a solution-oriented and researcher for solving problems. I am always open to innovation and learning.
-                    I am a person with high energy and I am a complete team player when it comes to communication and coordination with the team.
-                    I am always open to learning new libraries and programs for my skills.
+                <p>
+                    I am passionate about software and web applications.
+                    I am a solution-oriented and researcher for solving problems and open to innovation and learning.
+                    I am a person with high energy and team player with high communication and coordination skills
+                    I am always open to improve myself with learning new libraries and programs for my skills.
                 </p>
                 <div className="contacts">
                     <a href="https://www.linkedin.com/in/semihayyildiz23/" target='_blank'><i className="fab fa-linkedin-in" /></a>

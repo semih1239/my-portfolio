@@ -22,7 +22,7 @@ export const Projects = () => {
                         Developed with the team over 2 months.</p>
                     <a href="https://staging-webshop-class18-fp.herokuapp.com" target='_blank'>Website</a>
                     <a href="https://github.com/HackYourFuture-CPH/fp-class18" target='_blank'>Repository</a>
-                    <p>Builted With</p>
+                    <p>Built With</p>
                     <p className="project-skills">
                         <Skill name='React' imageName='react' />
                         <Skill name='Storybook' imageName='storybook' />
@@ -44,7 +44,7 @@ export const Projects = () => {
                         make review or reservation for people's meals</p>
                     <a href="https://meal-share-application.herokuapp.com" target='_blank'>Website</a>
                     <a href="https://github.com/semih1239/meal-sharing" target='_blank'>Repository</a>
-                    <p>Builted With</p>
+                    <p>Built With</p>
                     <p className="project-skills">
                         <Skill name='React' imageName='react' />
                         <Skill name='MySQL' imageName='mysql' />
@@ -62,7 +62,7 @@ export const Projects = () => {
                     <h3>GitHub User Searcher</h3>
                     <p>We can search github users and some basic informations from this project</p>
                     <a href="https://github.com/semih1239/Github-User-Searcher" target='_blank'>Repository</a>
-                    <p>Builted With</p>
+                    <p>Built With</p>
                     <p className="project-skills">
                         <Skill name='HTML' imageName='html' />
                         <Skill name='CSS' imageName='css' />
@@ -79,7 +79,7 @@ export const Projects = () => {
                     <p>With this website we can learn the weather forecast. We can save the city we are looking for in a local file,
                         automatically detect your location or can delete</p>
                     <a href="https://github.com/semih1239/Weather-app" target='_blank'>Repository</a>
-                    <p>Builted With</p>
+                    <p>Built With</p>
                     <p className="project-skills">
                         <Skill name='HTML' imageName='html' />
                         <Skill name='CSS' imageName='css' />
@@ -94,7 +94,7 @@ export const Projects = () => {
                     <h3>Faster Presser Game</h3>
                     <p>A game played by 2 people, the one who hits the key quickly wins</p>
                     <a href="https://github.com/semih1239/Fastest-Presser-Game" target='_blank'>Repository</a>
-                    <p>Builted With</p>
+                    <p>Built With</p>
                     <p className="project-skills">
                         <Skill name='HTML' imageName='html' />
                         <Skill name='CSS' imageName='css' />

@@ -14,9 +14,8 @@ export const Education = () => {
                 <div className="school">
                     <h1>Hack Your Future Denmark</h1>
                     <h2>Full Stack Web Development</h2>
-                    <div>9 month course about
-                        Full Stack Web
-                        Development program.
+                    <div>9 month course of 
+                        Full Stack Web Development.
                         The program is includes
                         HTML, CSS, Javascript,
                         Databases, NodeJS,
@@ -27,8 +26,8 @@ export const Education = () => {
                         personal project. Then
                         we do the final project as
                         a team with our
-                        classmates. Thus, we
-                        receive training for the
+                        classmates during 2 months. Thus, we
+                        receive training like the
                         working order in
                         companies
                     </div>

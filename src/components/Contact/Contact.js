@@ -14,7 +14,7 @@ export const Contact = () => {
         <div className='touch'>
             <div>
                 <h2>Get in Touch</h2>
-                <p>Hi. I am open to all kinds of advice, suggestions and questions. Feel free to contact with me.</p>
+                <p>Hi. I am open to all kinds of advice, suggestions and questions. Feel free to contact me.</p>
                 <div className='icon'>
                     <i className="far fa-envelope" />
                     <p>semihayyildiz23@outlook.com</p>

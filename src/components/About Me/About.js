@@ -26,11 +26,7 @@ export const AboutMe = () => {
                     <a href="https://github.com/semih1239" target='_blank'><i className="fab fa-github" /></a>
                     <a onClick={sendMail}><i className="far fa-envelope" /></a>
                 </div>
-<<<<<<< HEAD
                 <a className='cv' href='https://drive.google.com/file/d/19qyjtXPpG6KCHYMnOH6B76xwlwS0t_QJ/view?usp=sharing' target='_blank'>See CV</a>
-=======
-                <a className='cv' href='https://drive.google.com/file/d/15ewcXUbeML0_Qf_Gze6uvgJR_-QG8pxx/view?usp=sharing' target='_blank'>See CV</a>
->>>>>>> 74ba30cb581605a16dc99c7527b4ab878074d65a
             </div>
         </div>
     </div>

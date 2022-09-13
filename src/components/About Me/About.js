@@ -23,7 +23,7 @@ export const AboutMe = () => {
                     <a href="https://github.com/semih1239" target='_blank'><i className="fab fa-github" /></a>
                     <a onClick={sendMail}><i className="far fa-envelope" /></a>
                 </div>
-                <a className='cv' href='https://drive.google.com/file/d/1M3huPRNZhhcpDP6s-cVK8pjONepuI8vg/view?usp=sharing' target='_blank'>See CV</a>
+                <a className='cv' href='https://drive.google.com/file/d/1JSCL-ogUky_i-PzvJ3PxNWexA2StoFBm/view?usp=sharing' target='_blank'>See CV</a>
             </div>
         </div>
     </div>

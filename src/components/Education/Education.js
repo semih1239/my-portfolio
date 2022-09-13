@@ -14,22 +14,13 @@ export const Education = () => {
                 <div className="school">
                     <h1>Hack Your Future Denmark</h1>
                     <h2>Full Stack Web Development</h2>
-                    <div>9 month course of 
-                        Full Stack Web Development.
-                        The program is includes
-                        HTML, CSS, Javascript,
-                        Databases, NodeJS,
-                        React.js
+                    <div>A 9-month course in Full Stack Web Development.
+                        The program includes HTML, CSS, Javascript, Databases, NodeJS, React.js
                     </div>
                     <div>
-                        We are also doing a
-                        personal project. Then
-                        we do the final project as
-                        a team with our
-                        classmates during 2 months. Thus, we
-                        receive training like the
-                        working order in
-                        companies
+                        We also did a personal project.
+                        Then the final project was as a team with our classmates for 2 months.
+                        Thus, we receive training like the working order in companies
                     </div>
                 </div>
                 <h1 className="year">2021</h1>

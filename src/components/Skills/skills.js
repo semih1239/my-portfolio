@@ -27,6 +27,9 @@ export const Skills = () => {
             <Skill name='Swagger' imageName='swagger' />
             <Skill name='Typescript' imageName='typescript' />
             <Skill name='Heroku' imageName='heroku' />
+            <Skill name='C-Sharp' imageName='c-sharp' />
+            <Skill name='Google Cloud' imageName='google' />
+            <Skill name='Microsoft Azure' imageName='azure' />
         </div>
     </div>
 }
